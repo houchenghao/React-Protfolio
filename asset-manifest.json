@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Protfolio/static/css/main.e206db29.css",
-    "main.js": "/React-Protfolio/static/js/main.62ce9a57.js",
+    "main.css": "/React-Protfolio/static/css/main.c0b96454.css",
+    "main.js": "/React-Protfolio/static/js/main.545406e0.js",
     "static/media/SwapLog_blur.png": "/React-Protfolio/static/media/SwapLog_blur.b9c8a1306a1f6b2e0082.png",
     "static/media/WeatherDashboard_blur.png": "/React-Protfolio/static/media/WeatherDashboard_blur.86b69a762cd955cde5d0.png",
     "static/media/WorkDaySchedule_blur.png": "/React-Protfolio/static/media/WorkDaySchedule_blur.f977a2a6a3b72168193a.png",
@@ -16,11 +16,11 @@
     "static/media/PWA-Text-Editor.PNG": "/React-Protfolio/static/media/PWA-Text-Editor.ef1bcc7db725655ce569.PNG",
     "static/media/Tech-Blog.PNG": "/React-Protfolio/static/media/Tech-Blog.42ef3cec9dd64c2bc991.PNG",
     "index.html": "/React-Protfolio/index.html",
-    "main.e206db29.css.map": "/React-Protfolio/static/css/main.e206db29.css.map",
-    "main.62ce9a57.js.map": "/React-Protfolio/static/js/main.62ce9a57.js.map"
+    "main.c0b96454.css.map": "/React-Protfolio/static/css/main.c0b96454.css.map",
+    "main.545406e0.js.map": "/React-Protfolio/static/js/main.545406e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e206db29.css",
-    "static/js/main.62ce9a57.js"
+    "static/css/main.c0b96454.css",
+    "static/js/main.545406e0.js"
   ]
 }
