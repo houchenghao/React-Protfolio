@@ -1,25 +1,29 @@
 import React from 'react';
-import './Footer.css'
 import gitHubImage from './images/github.png'
 import linkInImage from './images/linkin.png'
+import facebookImage from './images/facebook.png'
 
 
-const gibHubhandleClick = () => {
+const gibHubHandleClick = () => {
     window.location.href = 'https://github.com/houchenghao';
 };
 
-const linkinhandleClick = () => {
+const linkinHandleClick = () => {
     window.location.href = 'https://www.linkedin.com/in/chenghao-hou-7946b758/';
 }
 
-export default function Footer() {
+const facebookHandleClick = () => {
+    window.location.href = 'https://www.facebook.com/chenghao.hou';
+}
+
+function Footer() {
   return (
     <div className='footer'>
         <div>   
             <img className='image'
                 src = {gitHubImage}
                 alt = 'Github'
-                onClick= {gibHubhandleClick}
+                onClick= {gibHubHandleClick}
                 style = {{cursor: 'pointer'}}
             />
         </div>
@@ -27,7 +31,15 @@ export default function Footer() {
             <img className='image'
                 src = {linkInImage}
                 alt = 'Github'
-                onClick= {linkinhandleClick}
+                onClick= {linkinHandleClick}
+                style = {{cursor: 'pointer'}}
+            />
+        </div>
+        <div>
+            <img className='image'
+                src = {facebookImage}
+                alt = 'Facebook'
+                onClick= {facebookHandleClick}
                 style = {{cursor: 'pointer'}}
             />
         </div>
@@ -35,4 +47,4 @@ export default function Footer() {
 
   );
 }
-
+export default Footer;

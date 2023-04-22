@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Aboutme() {
   return (
-    <div>
-      <h1>About</h1>
+    <div className='p-4'>
+      <h1>About me</h1>
       <p>
         Welcome to my portfolio! My name is Chenghao, and I'm an aspiring full stack developer,
         currently in the process of completing a Monash bootcamp.

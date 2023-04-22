@@ -1,7 +1,7 @@
 import React from 'react';
 // import Navigation from "./components/Navigation";
 import AboutMe from "./pages/AboutMe"
-import Project from "./pages/Project";
+import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 // import Navigation from "./Navigation"
@@ -13,8 +13,8 @@ function Content({currentPage}){
         if (currentPage === 'Aboutme') {
           return <AboutMe />
         }
-        if (currentPage === 'Project') {
-          return <Project />
+        if (currentPage === 'Portfolio') {
+          return <Portfolio />
         }
         if (currentPage === 'Contact') {
           return <Contact />
@@ -22,11 +22,8 @@ function Content({currentPage}){
         return <Resume />
       };
 
-      // const handlePageChange = (page) => setCurrentPage(page);
-
       return(
         <div>
-            {/* <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/> */}
             {renderPage()}
         </div>
         
