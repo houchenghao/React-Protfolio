@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 // import Navigation from "./components/Navigation";
 import AboutMe from "./pages/AboutMe"
 import Project from "./pages/Project";
@@ -6,7 +6,7 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 // import Navigation from "./Navigation"
 
-function PortfolioContainer({currentPage}){
+function Content({currentPage}){
     // const [currentPage, setCurrentPage] = useState('Aboutme');
 
     const renderPage = () => {
@@ -33,5 +33,5 @@ function PortfolioContainer({currentPage}){
       )
 }
 
-export default PortfolioContainer;
+export default Content;
 

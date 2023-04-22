@@ -15,7 +15,7 @@ const linkinhandleClick = () => {
 export default function Footer() {
   return (
     <div className='footer'>
-        <div className=''>   
+        <div>   
             <img className='image'
                 src = {gitHubImage}
                 alt = 'Github'

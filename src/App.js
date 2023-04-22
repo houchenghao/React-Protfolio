@@ -2,7 +2,8 @@ import React, { useState } from "react";
 // import PortfolioContainer from "./components/PortfolioContainer";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import PortfolioContainer from "./components/PortfolioContainer";
+import Content from "./components/Conent";
+
 
 
 
@@ -16,7 +17,7 @@ function App() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
-      <PortfolioContainer currentPage={currentPage}/>
+      <Content currentPage={currentPage}/>
       <Footer />
     </div>
   );
