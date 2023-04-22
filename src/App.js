@@ -4,15 +4,10 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Content from "./components/Conent";
 
-
-
-
 function App() {
   const [currentPage, setCurrentPage] = useState('Aboutme');
 
   const handlePageChange = (page) => setCurrentPage(page);
-
-
 
   return (
     <div>
