@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-Protfolio/static/css/main.e206db29.css",
+    "main.js": "/React-Protfolio/static/js/main.62ce9a57.js",
+    "static/media/SwapLog_blur.png": "/React-Protfolio/static/media/SwapLog_blur.b9c8a1306a1f6b2e0082.png",
+    "static/media/WeatherDashboard_blur.png": "/React-Protfolio/static/media/WeatherDashboard_blur.86b69a762cd955cde5d0.png",
+    "static/media/WorkDaySchedule_blur.png": "/React-Protfolio/static/media/WorkDaySchedule_blur.f977a2a6a3b72168193a.png",
+    "static/media/NoteTaker_blur.png": "/React-Protfolio/static/media/NoteTaker_blur.b2faec7f39d88e27c273.png",
+    "static/media/Tech-Blog_blur.png": "/React-Protfolio/static/media/Tech-Blog_blur.353eec6065b7296ef6ea.png",
+    "static/media/PWA-Text-Editor_blur.png": "/React-Protfolio/static/media/PWA-Text-Editor_blur.5cef82e57535c69b7eec.png",
+    "static/media/SwapLog.PNG": "/React-Protfolio/static/media/SwapLog.9d49b28a5f2823644764.PNG",
+    "static/media/WeatherDashboard.png": "/React-Protfolio/static/media/WeatherDashboard.e3796e7b5466b1a1d48d.png",
+    "static/media/github.png": "/React-Protfolio/static/media/github.ff2648078e819f6a9666.png",
+    "static/media/WorkDaySchedule.png": "/React-Protfolio/static/media/WorkDaySchedule.274b55219ece13b400a1.png",
+    "static/media/NoteTaker.png": "/React-Protfolio/static/media/NoteTaker.bbf14a1938dd9c6c0aed.png",
+    "static/media/PWA-Text-Editor.PNG": "/React-Protfolio/static/media/PWA-Text-Editor.ef1bcc7db725655ce569.PNG",
+    "static/media/Tech-Blog.PNG": "/React-Protfolio/static/media/Tech-Blog.42ef3cec9dd64c2bc991.PNG",
+    "index.html": "/React-Protfolio/index.html",
+    "main.e206db29.css.map": "/React-Protfolio/static/css/main.e206db29.css.map",
+    "main.62ce9a57.js.map": "/React-Protfolio/static/js/main.62ce9a57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e206db29.css",
+    "static/js/main.62ce9a57.js"
+  ]
+}
