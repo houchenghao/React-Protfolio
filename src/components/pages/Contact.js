@@ -31,7 +31,7 @@ function Contact() {
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email)) {
-      setErrorMessage('Email is invalid or empty name');
+      setErrorMessage('Invalid email or empty name');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
     }
@@ -45,7 +45,7 @@ function Contact() {
 
   return (
     <div className='p-5'>
-      <h3>Contact</h3>
+      <h1 className='page-tab-font'>Contact</h1>
       <div className='col-lg-5 col-sm-12'>
         <form className="form">
           <label className='pt-3' for = 'name'>Name</label>

@@ -1,12 +1,12 @@
 .back-ground-color {
-    background-color: antiquewhite;
+    background-color: #a29ca7;
 }
 
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(133, 116, 248);
+    background-color: rgb(51, 46, 83);
     font-weight: bold;
     height: 80px;
 }
@@ -18,6 +18,10 @@
     padding-right: 10px;
 }
 
+.portfolio-container{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .project-container {
     display: flex;
@@ -42,10 +46,11 @@
 .project-title{
     text-decoration: none;
     margin-bottom: 20px;
-    padding: 5px;
-    font-size: 85%;
+    padding: 8px;
+    padding-right: 30px;
+    font-size: 100%;
     font-weight: bold;
-    background: linear-gradient(90deg, rgb(108, 205, 235) 0%, rgb(12, 44, 87) 100%);
+    background: linear-gradient(90deg, rgb(226, 229, 230) 0%, rgb(78, 109, 148) 100%);
 }
 
 .project-image-1{
@@ -132,7 +137,7 @@
     color: rgb(14, 41, 14);
     height: 95%;
     width: 95%;
-    background-image: url("./components/images//Tech-Blog.PNG" );
+    background-image: url("./components/images/Tech-Blog.PNG" );
     background-size: cover;
 }
 
@@ -140,7 +145,7 @@
     height: 100%;
     width: 100%;
     color:#0e53c3;
-    background-image: url("./components/images//Tech-Blog_blur.png" );
+    background-image: url("./components/images/Tech-Blog_blur.png" );
     box-shadow:  0 0 10px rgb(18, 51, 218);
 }
 
@@ -159,4 +164,92 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     resize: vertical;
-  }
+}
+
+.name-font {
+    font-family:fantasy;
+    padding-left: 50px;
+    font-size: 80px;
+}
+
+.page-tab-font{
+    font-family: cursive;
+}
+
+.about-me-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.about-me-font{
+    font-size: 25px;
+}
+
+.about-me-background-container{
+    width: 100%;
+    height: 800px;
+}
+.about-me-background{
+    color: rgb(14, 41, 14);
+    height: 100%;
+    width: 100%;
+    background-image: url("./components/images/aboutMe-background.jpg" );
+    background-size: cover;
+}
+
+.nav-font-background {
+    color: black;
+    background: linear-gradient(52deg, #a29ca7 0%, #9e86b3 100%);
+}
+
+.nav-font-family{
+    font-family: cursive
+}
+
+.nav-font{
+    color:#0f0f0f;
+    font-size: 30px;
+}
+.tab-padding{
+    padding-right: 50px;
+}
+
+
+
+@media only screen and (max-width: 1440px){
+    .about-me-container{
+        flex-direction: column;
+    }
+    .about-me-background-container{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    .tab-padding{
+        padding-right: 0px;
+    }
+
+    .portfolio-container{
+        flex-wrap:nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .about-me-font{
+        font-size:large;
+    }
+    .about-me-background-container{
+        width: 100%;
+        height: 250px;
+    }
+    .nav-font{
+        font-size: 15px;
+    }
+    .name-font {
+        font-size: 50px;
+    }
+}

@@ -26,9 +26,9 @@ const Project6handleClick = () => {
 
 function Portfolio() {
     return (
-      <div className='p-3'>
-        <h2 className='pb-1'>Portfolio</h2>
-        <div className='d-flex flex-wrap'>
+      <div className='p-5'>
+        <h1 className='page-tab-font'>Portfolio</h1>
+        <div className='portfolio-container'>
             <div className='project-container'>
                 <figure 
                     className="project-image-title project-image-1"

@@ -3,8 +3,8 @@ import Navigation from './Navigation'
 
  function Header({currentPage,handlePageChange}) {
   return (
-    <div className='pt-3 px-sm-1 px-lg-3'>
-      <h1>Chenghao</h1>
+    <div className='pt-3 '>
+      <h2 className='name-font'>Chenghao HOU</h2>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
 
     </div>
