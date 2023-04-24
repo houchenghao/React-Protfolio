@@ -23,20 +23,16 @@ function Contact() {
   };
 
   const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
     setErrorMessage('');
 
     console.log(message, name, email)
 
-    // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email)) {
       setErrorMessage('Invalid email or empty name');
-      // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
     }
 
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
     setName('');
     setEmail('');
     setMessage('');
@@ -68,7 +64,6 @@ function Contact() {
 
           <label className='pt-3' for = 'message'>Message</label>
           <textarea
-            // className='mb-4 message-box'
             className='message-box'
             value = {message}
             name = "message"

@@ -12,7 +12,6 @@ function Resume() {
     'Node JS',
     'MySQL',
     'MongoDB'
-    // add more proficiencies as desired
   ];
 
   return (
