@@ -6,7 +6,6 @@ import Content from "./components/Conent";
 
 
 import './APP.css'
-// import './APP.css'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Aboutme');
